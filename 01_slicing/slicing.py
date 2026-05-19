@@ -8,3 +8,7 @@ modern_name = name[::2]
 reverse_name = name[::-1]
 
 print(reverse_name)
+
+website = input("Enter your website address: ")
+slice = slice(7,-4)
+print(website[slice])
